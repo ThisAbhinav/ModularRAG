@@ -1,0 +1,28 @@
+{
+    "chunker": "RecursiveChunking",
+    "datatype": "pdf",
+    "ingestor": "LLMSherpaIngestion",
+    "embed_model": {
+        "type": "huggingface",
+        "name": "all-MiniLM-L6-v2"
+    },
+    "query_method": "BaseQuery",
+    "vector_store_name": "Basic",
+    "retriever": {
+        "type": "BaseRetriever",
+        "top_k": 20
+    },
+    "generator": {
+        "type": "SimpleGenerator",
+        "name": "Groq",
+        "model_name": "mixtral-8x7b-32768"
+    },
+    "reranker": {
+        "type": "CrossEncoderReranker",
+        "top_k":15,
+        "model_name": "ms-marco-TinyBERT-L-2-v2"
+    },
+    "use_cache": true,
+    "use_router": true,
+    "rerank": true
+}
