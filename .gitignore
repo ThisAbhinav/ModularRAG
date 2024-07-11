@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+.env
+/data/vector
+logs/
+__pycache__
+/__pycache__
+logs
+test.py
+/.chainlit
+/.files
+/cache
