@@ -1,8 +1,8 @@
-# Assessment RAG
+# Moudular RAG
 
 ## Project Overview
 
-This repository contains the implementation of the Modular Pipeline for RAG. The project focuses on modularizing source code for a RAG pipeline, creating Sphinx documentation, deploying an application using Docker and evaluation of RAG pipeline using both deterministic and non-deterministic methods.
+This repository contains the implementation of the Modular Pipeline for RAG. The project focuses on modularizing RAG pipeline, making chatbot interface for QA, deploying the application using Docker and evaluation of RAG pipeline using both deterministic and non-deterministic methods.
 
 ## Table of Contents
 
