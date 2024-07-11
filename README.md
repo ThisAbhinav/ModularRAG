@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains the implementation of the Assessment RAG project for EY-SIP 2024. The project focuses on modularizing source code for a RAG pipeline, creating Sphinx documentation, deploying an application, containerizing the app, and publishing a Docker image.
+This repository contains the implementation of the Modular Pipeline for RAG. The project focuses on modularizing source code for a RAG pipeline, creating Sphinx documentation, deploying an application using Docker and evaluation of RAG pipeline using both deterministic and non-deterministic methods.
 
 ## Table of Contents
 
